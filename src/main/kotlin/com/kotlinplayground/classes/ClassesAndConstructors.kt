@@ -24,8 +24,6 @@ class SecondaryConstructor() {
     constructor(_name: String) : this() { // we need to make a call to the primary constructor using this()
         name = _name
     }
-
-
 }
 
 fun main() {
@@ -37,6 +35,5 @@ fun main() {
 
     val secondaryConst = SecondaryConstructor(_name = "Pearl")
     println("Her name is ${secondaryConst.name}")
-
 }
 
