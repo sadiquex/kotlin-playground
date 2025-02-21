@@ -36,4 +36,3 @@ fun main() {
     val secondaryConst = SecondaryConstructor(_name = "Pearl")
     println("Her name is ${secondaryConst.name}")
 }
-
